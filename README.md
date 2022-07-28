@@ -1,8 +1,9 @@
-# Amazon_Vine_Analysis
+# Vine Analysis
 Columbia Data Science Bootcamp Spark/AWS Module
 
 ## Deliverable 1
-Data was extracted, transformed into the requested 4 DataFrames, and uploaded to AWS and pgAdmin.
+Data on reviews of video games was extracted, transformed into the requested 4 DataFrames, and uploaded to AWS and pgAdmin.
+
 ### Screenshots of Each Table in pgAdmin
 |                                                     |                                                   |
 | --------------------------------------------------- | ------------------------------------------------- |
@@ -18,6 +19,9 @@ Data was exported from pgAdmin into a `.csv` file, and from there was imported i
 
 ## Deliverable 3
 This Vine analysis was computed to determine if there is any bias in the review rating if the reviewer was paid (`vine == 'Y') or not.
+
+### Initial Selection
+For this data, we will only be referring to reviews which have at least 20 total votes, with at least 50% of the votes considered "helpful" votes.  This will allow us to select reviews that are well reviewed and received by peers.
 
 ### Summary Statistics
 ![](Screenshots/summary_statistics.png)

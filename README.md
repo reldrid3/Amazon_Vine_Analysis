@@ -2,7 +2,7 @@
 Columbia Data Science Bootcamp Spark/AWS Module
 
 ## Deliverable 1
-Data on reviews of video games was extracted, transformed into the requested 4 DataFrames, and uploaded to AWS and pgAdmin.
+Data on reviews of video games was put into a [Google Colab Notebook](Amazon_Reviews_ETL.ipynb) and extracted, transformed into the requested 4 DataFrames, and uploaded to AWS and pgAdmin.
 
 ### Screenshots of Each Table in pgAdmin
 |                                                     |                                                   |

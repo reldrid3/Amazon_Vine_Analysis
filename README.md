@@ -26,6 +26,18 @@ For this data, we will only be referring to reviews which have at least 20 total
 ### Summary Statistics
 ![](Screenshots/summary_statistics.png)
 
-### How many Vine reviews and non-Vine reviews were there?
-### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+#### How many Vine reviews and non-Vine reviews were there?
+Of the reviews that meet our criteria, there were only 94 Vine reviews compared to 40471 non-Vine reviews.
+
+#### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+Of the Vine reviews, 48 of them were 5 stars, while 15663 of the non-Vine reviews were 5 stars.
+
+#### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+Of the Vine reviews, 51.06% of them were 5 stars, while 38.70% of the non-Vine reviews were 5 stars.
+
+### Conclusions
+If you only look at the percentages, it looks like there is a clear increase in the number of 5 star reviews coming from paid reviewers compared to unpaid reviewers.  However, there were only 94 Vine reviews that fit our criteria, so the power of any statistical correlation is likely less than it should be.
+
+#### Additional Analyses
+- A statistical test (such as a t-test) could provide better statistical significance to the difference between percentages that we see here.
+- Especially with a small population, we should join tables and see if any of the paid (or unpaid) reviews were made by the same person (same `customer_id`).  It could be that only one or two reviewers are biased by their pay, and simply have reviewed a number of products to supplement their income, rather than the population as a whole.  This could also be done by examining the reviewers and their average scores, rather than the reviews themselves, to look for outliers.
